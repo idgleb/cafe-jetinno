@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+h1.display-4 {
+    font-family: 'Segoe UI', sans-serif;
+    letter-spacing: 1px;
+}
+
+.lead {
+    font-size: 1.2rem;
+}
+
+.btn-lg {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+}
+
+
 .select-elegante {
     background-color: #f8f9fa;
     border: 2px solid #007bff;

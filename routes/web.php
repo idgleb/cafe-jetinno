@@ -11,7 +11,8 @@ use Illuminate\Support\Facades\Route;
 require __DIR__.'/auth.php';
 
 // Ruta Home (ya la tenés bien definida)
-Route::get('/', fn() => view('home'));
+Route::get('/', fn() => view('home'))->name('home');
+
 
 // Rutas públicas
 Route::get('/productos', [ProductoController::class, 'index']);
